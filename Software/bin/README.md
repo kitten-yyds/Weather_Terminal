@@ -3,3 +3,4 @@
 # Weather Terminal
 This is the compiled firmware of the Weather Terminal project, which can be directly burned using tools
 
+![烧录图片](img1.png)

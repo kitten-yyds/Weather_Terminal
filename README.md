@@ -19,9 +19,9 @@
 [开源链接](https://oshwhub.com/mondraker/axp202-zeng-ge-yan-zheng)
 ### 4.外壳：
 使用Solidworks建模，有3D打印的外壳，两个3mm厚的亚克力板，但是建模文件意外丢失，后面会重建补回；
-[链接](Hardware/PCB/README.md)
 ### 5.PCB电路板
 电路板设计使用的是嘉立创eda pro，先后了进行7次迭代更新(大部分是电源设计问题)，现在的最新版本电源问题已经解决，PCB为两层板，厚度1.6mm，可以~~白嫖~~免费打板(截止2024.7)；
+[链接](Hardware/PCB)
 ## 2.软件
 ### 1.编程环境：
 前期开发使用的简单容易开发的Arduino IDE，后期开发使用的是乐鑫的ESP-IDF,ESP-IDF版本是4.4.7；
