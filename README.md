@@ -53,5 +53,7 @@
 + 主页下栏支持文字循环显示
 ### 5.实物图片
 ![1](Picture/picture1.jpg)
+![3](Picture/picture3.jpg)
 ![2](Picture/picture2.jpg)
-
+### 6.视频
+[B站视频](https://www.bilibili.com/video/BV1mr8BeWEXC/?share_source=copy_web&vd_source=5588fe9aea502bb194bba4da819092e9)
