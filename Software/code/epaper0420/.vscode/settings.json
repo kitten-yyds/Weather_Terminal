@@ -1,0 +1,20 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "d:\\develop_env\\idf\\.espressif\\tools\\xtensa-esp-elf-gdb\\11.2_20220823\\xtensa-esp-elf-gdb\\bin;d:\\develop_env\\idf\\.espressif\\tools\\riscv32-esp-elf-gdb\\11.2_20220823\\riscv32-esp-elf-gdb\\bin;d:\\develop_env\\idf\\.espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-patch5-8.4.0\\xtensa-esp32-elf\\bin;d:\\develop_env\\idf\\.espressif\\tools\\xtensa-esp32s2-elf\\esp-2021r2-patch5-8.4.0\\xtensa-esp32s2-elf\\bin;d:\\develop_env\\idf\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-2021r2-patch5-8.4.0\\xtensa-esp32s3-elf\\bin;d:\\develop_env\\idf\\.espressif\\tools\\riscv32-esp-elf\\esp-2021r2-patch5-8.4.0\\riscv32-esp-elf\\bin;d:\\develop_env\\idf\\.espressif\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;d:\\develop_env\\idf\\.espressif\\tools\\cmake\\3.23.1\\bin;d:\\develop_env\\idf\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230921\\openocd-esp32\\bin;d:\\develop_env\\idf\\.espressif\\tools\\ninja\\1.10.2;d:\\develop_env\\idf\\.espressif\\tools\\idf-exe\\1.0.3;d:\\develop_env\\idf\\.espressif\\tools\\ccache\\4.3\\ccache-4.3-windows-64;d:\\develop_env\\idf\\.espressif\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "d:\\develop_env\\idf\\.espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1"
+    },
+    "idf.espIdfPathWin": "d:\\develop_env\\idf\\v4.4.7\\esp-idf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.portWin": "COM8",
+    "idf.pythonBinPathWin": "d:\\develop_env\\idf\\.espressif\\python_env\\idf4.4_py3.8_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "d:\\develop_env\\idf\\.espressif",
+    "idf.flashType": "UART",
+    "C_Cpp.errorSquiggles": "disabled",
+    "idf.gitPathWin": "d:\\develop_env\\idf\\.espressif\\tools\\idf-git\\2.39.2\\cmd\\git.exe"
+}

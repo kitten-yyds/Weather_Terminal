@@ -1,0 +1,22 @@
+file(GLOB_RECURSE all_srcs
+    "*.c"
+    "*.cpp"
+)
+
+idf_component_register(
+    SRCS
+    ${all_srcs}
+    #"ArduinoUZlib.cpp"
+    #"adler32.c" 
+    #"crc32.c" 
+    #"defl_static.c" 
+    #"genlz77.c"
+    #"tinfgzip.c" 
+    #"tinflate.c" 
+    #"tinfzlib.c"
+    INCLUDE_DIRS
+    "."
+    "nasm"
+    REQUIRES
+    "arduino-esp32-2.0.15"
+)

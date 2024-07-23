@@ -1,0 +1,20 @@
+set(srcs 
+    "src/GxEPD2_EPD.cpp"
+    "src/epd3c/GxEPD2_420c_1680.cpp"
+)
+
+set(includes 
+    "src"
+    "src/epd3c"
+    "src/bitmaps"
+)
+
+idf_component_register(
+    SRCS
+    ${srcs}
+    INCLUDE_DIRS
+    ${includes}
+	REQUIRES
+    "arduino-esp32-2.0.15"
+    "Adafruit_GFX_Library"
+)

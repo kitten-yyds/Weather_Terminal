@@ -1,0 +1,18 @@
+set(srcs 
+    "src/u8g2_fonts.c"
+    "src/U8g2_for_Adafruit_GFX.cpp"
+)
+
+set(includes 
+    "src"
+)
+
+idf_component_register(
+    SRCS
+    ${srcs}
+    INCLUDE_DIRS
+    ${includes}
+	REQUIRES
+    "arduino-esp32-2.0.15"
+    "Adafruit_GFX_Library"
+)

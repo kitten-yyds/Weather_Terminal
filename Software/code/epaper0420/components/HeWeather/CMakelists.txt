@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+    "HttpsGetUtils.cpp"
+    "WeatherNow.cpp"
+    "WeatherForecast.cpp"
+    "Weather24h.cpp"
+    "AirQuality.cpp"
+    INCLUDE_DIRS
+    "."
+    REQUIRES
+    "arduino-esp32-2.0.15"
+    "ArduinoJson-7.x"
+    "gzip"
+)
