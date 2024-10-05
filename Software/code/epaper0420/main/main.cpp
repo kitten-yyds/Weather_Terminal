@@ -392,8 +392,6 @@ void time_update(){
 }
 
 void display_setup(){
-  u8g2Fonts.setForegroundColor(GxEPD_BLACK);   // 设置前景色
-  u8g2Fonts.setBackgroundColor(GxEPD_WHITE);   // 设置背景色
   display.setFullWindow();
   display.firstPage();
   do{
@@ -532,6 +530,8 @@ void app_init(){
   u8g2Fonts.begin(display);
   u8g2Fonts.setFontDirection(0);    // 设置文字显示方向
   u8g2Fonts.setFontMode(1);                        // 使用u8g2透明模式（这是默认设置）
+  u8g2Fonts.setForegroundColor(GxEPD_BLACK);   // 设置前景色
+  u8g2Fonts.setBackgroundColor(GxEPD_WHITE);   // 设置背景色
   ESP_LOGI("display","init...done");
   check_bat();
   if(is_System_has_on == 0){//检查系统是不是已经启动过了
