@@ -1,7 +1,8 @@
 # 天气墨水屏终端[Weather Terminal]
 基于ESP-IDF开发的4.2寸墨水屏天气终端
 
-![侧面](Picture/picture1.jpg)
+![正面](Picture/picture1.jpg)  
+![背面](Picture/picture2.jpg)  
 ## 0.介绍
 这是一个基于ESP32开发的4.2寸墨水屏天气终端
 
@@ -41,6 +42,12 @@
 使用的是NTP同步时间，时间同步到ESP32的RTC，RTC的时钟源使用的是<u>"内置 8.5 MHz 振荡器的 256 分频时钟"</u>，会比默认的时钟源更为准确稳定；
 ### 5.配网
 配网使用的是传统的AP配网方式，设备进入配置模式，会发出SSID为Epaper热点，连接并访问192.168.0.1，便可以配置WiFi信息、天气更新信息、主页面的下栏文字；
+![11](Picture/picture11.png)
+![8](Picture/picture8.png)
+![9](Picture/picture9.png)
+![10](Picture/picture10.png)
+
+
 ## 3.已经实现的功能
 + 天气的获取以及显示
 + 未来5h天气和未来5d图表显示
@@ -56,7 +63,11 @@
 + 主页下栏支持文字循环显示
 ### 5.实物图片
 ![1](Picture/picture1.jpg)
-![3](Picture/picture3.jpg)
 ![2](Picture/picture2.jpg)
+![3](Picture/picture3.jpg)
+![4](Picture/picture4.jpg)
+![5](Picture/picture5.jpg)
+![6](Picture/picture6.jpg)
+
 ### 6.视频
 [B站视频](https://www.bilibili.com/video/BV1mr8BeWEXC/?share_source=copy_web&vd_source=5588fe9aea502bb194bba4da819092e9)
